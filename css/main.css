@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden
+{
+	display: none;
+}
+
+div,p,body,header,footer,section,article,nav
+{
+	margin: 0;
+	padding: 0;
+}
+
+img
+{
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #333;
+}
+
+
+a:link, a:visited
+{
+ 	text-decoration:none;
+}
+
+a:hover, a:active
+{
+	text-decoration:none;
+}
+
+#siteContainer
+{
+	margin: 0 auto;
+	width: 960px;
+}
+
+#mainContent h1
+{
+  font-family: Impact, Arial, sans-serif;
+  font-size: 80px;
+  color: #E0AAB8;
+  letter-spacing: 1px;
+}
+
+#mainContent p
+{
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+#photoContent
+{
+  margin-top: 20px;
+}
+
+#photoContent h2
+{
+  font-family: Impact, Arial, sans-serif;
+  font-size: 40px;
+  color: #E0AAB8;
+  letter-spacing: 1px;
+}
